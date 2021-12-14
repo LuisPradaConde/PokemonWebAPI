@@ -1,0 +1,277 @@
+body{
+	background:#FFE5AB;
+	color: white;
+	text-align: center;
+	object-position: center;
+}
+
+.logo {
+	margin-bottom: -30px;
+	width: 100%;
+}
+
+.container{
+	object-position: center;
+	width: 90%;
+	margin : 0 auto;
+}
+
+#findPokemonBar{
+	border-radius: 3vw;
+ 	background-color: #FFF6F6;
+	width: 58%;
+	padding: 2%;
+	font-size: 3vw;
+	object-fit: contain;
+	font-family: 'Palanquin', sans-serif;
+	margin-bottom: 3%;
+	margin-top: 1%;
+}
+
+#findPokemonBar::placeholder{
+	font-size: 3vw;
+	font-style: italic;
+	text-align: justify;
+	font-family: 'Palanquin', sans-serif;
+}
+
+
+#comboType{
+	border-radius: 3vw;
+ 	background-color: #FFF6F6;
+	width: 40%;
+  	padding: 2%;
+	margin-bottom: 3%;
+	margin-top: 1%;
+	font-size: 3vw;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#comboType::placeholder {
+	font-size: 3vw;
+	font-style: italic;
+	text-align: justify;
+	object-fit: contain;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#pokedex{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+	object-position: center;
+	padding: 0;
+	grid-gap: 3vw;
+
+}
+
+#footer{
+	font-size: 3vw;
+	color: #000000;
+	font-family: 'Palanquin', sans-serif;
+}
+
+.card{
+	list-style: none;
+	background-color: #FFF6F6;
+	color: #222;
+	border-radius:5vw;
+}
+
+.card:hover{
+	cursor:pointer;
+	transform: translate(-5px);
+}
+
+
+.card-number {
+	font-size: 1.5rem;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	font-family: 'Palanquin', sans-serif;
+
+}
+.card-title{
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: 'Palanquin', sans-serif;
+	margin: 1vh auto;
+	object-fit: contain;
+}
+
+.card-image{
+	margin-top: 5%;
+	max-width: 80%;
+}
+
+.card-type1{
+	max-width: 30%;
+	object-fit: contain;
+}
+
+.card-type2{
+	max-width: 30%;
+	object-fit: contain;
+}
+
+.card-height-weight{
+	font-size: 0.8rem;
+	color: #000000;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.popup{
+	list-style: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #FFF6F6;
+	opacity: 0.95;
+	object-position: center;
+	overflow: auto;
+}
+
+
+#closeButton {
+	position: absolute;
+	top: 1.5%;
+	right: 2.5%
+}
+
+button {
+	background-color: #FFCDB5;
+	padding: 1% 2% ;
+	border-radius: 1%;
+	border-style: inset;
+	color: #000000;
+	transition: transform 100ms;
+}
+
+button:hover{
+	cursor:pointer;
+	transform: translate(-0.50vw);
+}
+
+.card-title-pop{
+	text-transform: capitalize;
+	margin-bottom: 0;
+	font-size: 2em;
+	margin-top: 10%;
+	text-align: center;
+	position: relative;
+	font-weight: normal;
+	color: #000000;
+	font-family: 'Palanquin', sans-serif;
+}
+
+
+.image-type1-pop{
+	max-width: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: center;
+	position: relative;
+}
+
+.image-type2-pop{
+	max-width: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: center;
+	position: relative;
+}
+
+
+.card-height-weight-pop{
+	font-size: 1em;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card-image1-pop{
+		margin:1% auto;
+	width: 45%;
+}
+.card-image2-pop{
+		margin:1% auto;
+	width: 45%;
+}
+
+.stats-box-list{
+		max-width: 50%;
+		height: 25%;
+		text-align: justify;
+		object-position: center;
+		position: relative;
+		margin-left: 10%;
+		margin-right: 10%;
+		object-fit: contain;
+}
+
+.normal-abilities{
+	margin-top: 0;
+	font-size: 1em;
+	text-align: center;
+	font-weight: normal;
+	color: #000000;
+	text-transform: capitalize;
+		font-family: 'Roboto', sans-serif;
+}
+
+.hidden-ability{
+	font-size: 1em;
+	margin-bottom: 0;
+	text-align: center;
+	font-weight: normal;
+	color: #000000;
+	text-transform: capitalize;
+		font-family: 'Roboto', sans-serif;
+}
+
+.stats{
+	font-size: 1em;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+}
+
+.item{
+	font-size:0.8em;
+  color: #000000;
+	margin-bottom: 1%;
+	margin-top: 2%;
+	font-family: 'Palanquin', sans-serif;
+}
+
+.item-bar{
+	height:3%;
+	background:#0C0;
+	font-family: 'Palanquin', sans-serif;
+}
+
+.title-pop-evolve{
+	font-size: 0.8em;
+	text-align: center;
+	position: relative;
+	color: #000000;
+	text-transform: capitalize;
+	margin-top: 0;
+	font-weight: normal;
+	font-family: 'Palanquin', sans-serif;
+
+}
+.image-evolve-pop{
+	position: relative;
+	height: 12%;
+	width: 30%;
+	object-fit: contain;
+
+}

@@ -1,0 +1,54 @@
+.logo {width: 60%;}
+
+#footer{font-size: 0.8vw;}
+
+#findPokemonBar{
+	padding: 0.8%;
+	font-size: 0.8vw;
+}
+
+#findPokemonBar::placeholder{font-size: 0.8vw;}
+
+#comboType{
+  	padding: 0.8%;
+	font-size: 1vw;
+}
+
+#comboType::placeholder {font-size: 0.8vw;}
+
+#pokedex{
+	grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+	grid-gap: 0.5%;
+}
+
+.card{border-radius:2vw;}
+
+.card-title{font-size: 1.2rem;}
+
+.card-height-weight{font-size: 0.7rem;}
+
+.popup{overflow: auto;}
+
+#closeButton {right: 1.5%}
+
+button {padding: 0.5% 1% ;}
+
+.card-title-pop{
+	font-size: 2.5em;
+	margin-top: 2%;
+}
+
+.image-type1-pop{max-width: 3.5%;}
+
+.image-type2-pop{max-width: 3.5%;}
+
+.card-image1-pop{width: 10%;}
+.card-image2-pop{width: 10%;}
+
+.stats{font-size: 1em;}
+
+.stats-box-list{margin-left: 35%;width: 25%;}
+
+.item{font-size:0.8em;}
+
+.item-bar{height:2%;}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app-tablet.css" media="only screen and (min-width: 650px)">
+    <link rel="stylesheet" href="app-desktop.css" media="only screen and (min-width: 1100px)">
+  </head>
+
+  <body>
+    <img class ="logo" src = "pokedex.png" alt="Pokedex"/>
+    <footer id="footer">
+      <p>
+        Written by:
+          <a href = "https://www.instagram.com/_pablosantos_/" > Pablo Santos </a>
+          <a href = "https://www.instagram.com/47_lucho" > Luis Prada </a>
+          .
+      </p>
+      <p>
+        Provided by:
+          <a href = "https://pokeapi.co/" > Poke Api </a>
+          .
+            Published on
+          <a href = "https://github.com/ipm-fic/03-web-LuisPradaConde.git" > Github </a>
+      </p>
+    </footer>
+      <div class = "container" role = "main">
+          <input type="search" name ="findPokemonBar" id = "findPokemonBar" size="40"
+          placeholder=" Search Pokemon by name ..." />
+          <input id = "comboType" type=search list="typesList" placeholder="Search by type ..."/>
+          <datalist id="typesList">
+          </datalist>
+
+        <ul id="pokedex"> </ul>
+        <script src="app.js"></script>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+#pokedex{
+	grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+
+#footer{
+	font-size: 2.2vw;	
+}
+
+.card-title{
+	font-size: 2rem;
+}
+
+.card-height-weight{
+	font-size: 1rem;
+}
+
+.popup{overflow: auto;}
+
+.card-title-pop{
+	font-size: 4em;
+}
+.image-type1-pop{
+	max-width: 10%;
+}
+
+.image-type2-pop{
+	max-width: 10%;
+}
+
+.card-image1-pop{
+	width: 32%;
+}
+.card-image2-pop{
+	width: 32%;
+}
+
+.stats{
+	font-size: 2em;
+}
+.item{font-size:1.2em;}
+
+.title-pop-evolve{
+	font-size: 1.5em;
+
+}
